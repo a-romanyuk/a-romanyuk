@@ -61,6 +61,14 @@ a{
     margin:0;
 }
 
+/* Ensure inline display for links within paragraphs */
+.section-2 p a{
+    display: inline;
+    padding: 0;
+    font-size: inherit; /* Inherit the font size from the surrounding text */
+}
+
+
 .section-2 a{
     display: inline;
     padding: 5px;
