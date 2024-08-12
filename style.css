@@ -110,3 +110,17 @@ a{
         padding-top: 2rem;
     }
 }
+
+a.cv-link {
+    font-size: 1.5rem; /* Adjust size to match other icons */
+    font-weight: bold; /* Make the text bold */
+    color: #7A7C80; /* Match the color with other links */
+    text-decoration: none; /* Remove underline */
+    padding: 10px; /* Add some padding */
+}
+
+a.cv-link:hover {
+    color: #fff; /* Change color on hover */
+    cursor: pointer;
+    transition: 0.3s; /* Smooth transition */
+}
